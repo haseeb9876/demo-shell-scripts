@@ -1,3 +1,3 @@
 # This is bash scripting file
 
-Bash scripting is power full knowledge
+this is a good commit
