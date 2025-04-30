@@ -1,4 +1,0 @@
-This is a version control system
-
-This commit is fine looking good
-
