@@ -1,26 +1,24 @@
 # Base image (OS)
 
-FROM python:3.7
+FROM python:3.9-slim
 
 # Working directory
 
 WORKDIR /app
 
-# Copy src to container 
+# Copy src code to container
 
 COPY . .
 
-# Run the build command
+# Run the build commands
 
 RUN pip install -r requirements.txt
 
-# Expose the port 80
+# expose port 80
 
 EXPOSE 80
 
-# Serve the app or Run the app to keep it running
+# serve the app / run the app (keep it running)
 
-CMD ["python", "run.py"]
-
-
+CMD ["python","run.py"]
 
